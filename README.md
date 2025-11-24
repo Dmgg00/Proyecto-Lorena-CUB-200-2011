@@ -79,9 +79,3 @@ Los modelos fueron entrenados y evaluados, obteniendo métricas de:
 - Análisis de overfitting y convergencia
 
 Este proyecto es de código abierto y está disponible para fines educativos.
-
-## 🙏 Agradecimientos
-
-- Dataset CUB-200-2011 proporcionado por Caltech-UCSD
-- Modelos pre-entrenados de TensorFlow/Keras
-- Comunidad de Google Colab
