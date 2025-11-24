@@ -72,6 +72,9 @@ matplotlib
 
 ## Resultados
 
+<img src="https://github.com/Dmgg00/Proyecto-Lorena-CUB-200-2011/blob/d2ce9ead7f39147a83d24551a6b82e66939b1e6f/resultados.png" width="600" />
+
+
 Los modelos fueron entrenados y evaluados, obteniendo métricas de:
 - **Accuracy** (Precisión)
 - **Loss** (Pérdida)
