@@ -24,16 +24,16 @@ El dataset CUB-200-2011 contiene:
 
 ## 🔬 Metodología
 
-### 3.1 Modelo Base con CNN desde Cero
+### 1. Modelo Base con CNN desde Cero
 Implementación de una red neuronal convolucional construida desde cero para establecer una línea base de rendimiento.
 
-### 3.2 Transfer Learning con ResNet50
+### 2. Transfer Learning con ResNet50
 Utilización de ResNet50 pre-entrenada en ImageNet, con:
 - Congelamiento inicial de capas base
 - Fine-tuning de capas superiores
 - Callbacks para prevenir overfitting (EarlyStopping, ReduceLROnPlateau)
 
-### 3.3 Transfer Learning con EfficientNetB0
+### 3. Transfer Learning con EfficientNetB0
 Implementación de EfficientNetB0, una arquitectura más eficiente que balancea precisión y recursos computacionales.
 
 ## 🛠️ Tecnologías Utilizadas
