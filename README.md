@@ -1,10 +1,10 @@
 # Proyecto de Clasificación de Aves - CUB-200-2011
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto implementa un sistema de clasificación de aves utilizando técnicas de Deep Learning sobre el dataset CUB-200-2011 (Caltech-UCSD Birds-200-2011). El objetivo principal es desarrollar y comparar diferentes arquitecturas de redes neuronales para identificar automáticamente especies de aves a partir de imágenes.
 
-## 🎯 Objetivos
+## Objetivos
 
 - Implementar y evaluar modelos de clasificación de imágenes para 200 especies de aves
 - Comparar el rendimiento entre diferentes arquitecturas:
@@ -14,7 +14,7 @@ Este proyecto implementa un sistema de clasificación de aves utilizando técnic
 - Aplicar técnicas de regularización para prevenir overfitting
 - Optimizar los modelos mediante técnicas como fine-tuning y callbacks
 
-## 📊 Dataset: CUB-200-2011
+## Dataset: CUB-200-2011
 
 El dataset CUB-200-2011 contiene:
 - **11,788 imágenes** de 200 especies diferentes de aves
@@ -22,7 +22,7 @@ El dataset CUB-200-2011 contiene:
 - División en conjuntos de entrenamiento y validación
 - Desafíos de clasificación debido a la similitud visual entre especies
 
-## 🔬 Metodología
+## Metodología
 
 ### 1. Modelo Base con CNN desde Cero
 Implementación de una red neuronal convolucional construida desde cero para establecer una línea base de rendimiento.
@@ -36,7 +36,7 @@ Utilización de ResNet50 pre-entrenada en ImageNet, con:
 ### 3. Transfer Learning con EfficientNetB0
 Implementación de EfficientNetB0, una arquitectura más eficiente que balancea precisión y recursos computacionales.
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - **Python 3**
 - **TensorFlow/Keras** - Framework principal de Deep Learning
@@ -44,7 +44,7 @@ Implementación de EfficientNetB0, una arquitectura más eficiente que balancea 
 - **NumPy, Pandas** - Procesamiento de datos
 - **Matplotlib** - Visualización de resultados
 
-## 🚀 Cómo Usar
+## Cómo Usar
 
 ### Requisitos Previos
 
@@ -70,27 +70,13 @@ matplotlib
    - Evaluar el rendimiento
    - Visualizar resultados
 
-## 📈 Resultados
+## Resultados
 
 Los modelos fueron entrenados y evaluados, obteniendo métricas de:
 - **Accuracy** (Precisión)
 - **Loss** (Pérdida)
 - Comparativas entre diferentes arquitecturas
 - Análisis de overfitting y convergencia
-
-## 🔍 Características Destacadas
-
-- **Aumento de datos (Data Augmentation)** para mejorar la generalización
-- **Early Stopping** para prevenir sobreajuste
-- **ReduceLROnPlateau** para optimización adaptativa del learning rate
-- **Fine-tuning** selectivo de capas en transfer learning
-- **Visualización** de métricas de entrenamiento y validación
-
-## 👥 Autores
-
-Proyecto desarrollado como parte del curso de Deep Learning.
-
-## 📝 Licencia
 
 Este proyecto es de código abierto y está disponible para fines educativos.
 
